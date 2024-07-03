@@ -1,0 +1,21 @@
+.title{
+    text-align: center;
+}
+.web{
+    display: flex;
+}
+.web-infor{
+    margin-left: 100px;
+}
+.menu2{
+    display: flex;
+}
+.html,
+.css,
+.java{
+    margin-left: 100px;
+}
+.web_img{
+    width: 300px;
+    height: 300px;
+}

@@ -1,0 +1,24 @@
+.title{
+    text-align: center;
+}
+.html{
+    display: flex;
+}
+.css-infor{
+    margin-left: 100px;
+}
+.menu2{
+    display: flex;
+}
+.html,
+.css,
+.java{
+    margin-left: 100px;
+}
+.css1{
+    display: flex;
+}
+.css_img{
+    width: 500px;
+    height: 500px;
+}

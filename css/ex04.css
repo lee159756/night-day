@@ -1,0 +1,24 @@
+.title{
+    text-align: center;
+}
+.html{
+    display: flex;
+}
+.java-infor{
+    margin-left: 100px;
+}
+.menu2{
+    display: flex;
+}
+.html,
+.css,
+.java{
+    margin-left: 100px;
+}
+.java1{
+    display: flex;
+}
+.java_img{
+    width: 500px;
+    height: 500px;
+}
