@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *{
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+        }
+        .wrapper{
+            width: 960px;
+            margin: 0 auto;
+        }
+        h1{
+            padding: 20px 0;
+        }
+        button{
+            padding: 2px 6px;
+            margin-bottom: 20px ;
+        }
+        ol{
+            margin-left: 25px;
+            margin-bottom: 20px;
+        }
+        H2{
+            margin-bottom: 20px;
+        }
+        p{
+            padding-left: 14px;
+        }
+
+        /* 
+        야간화면스타일
+        body{
+            background-color: #000000;
+            color: #ffffff;
+        }
+        a{
+            color: lightblue;
+        }
+        주간화면 스타일
+        body{
+            background-color: #ffffff;
+            color: #000000;
+        }
+        a{
+            color: blue;
+        } */
+
+
+    </style>
+</head>
+<body>
+    <div class="wrapper">
+        <h1><a href="./index1.html">WEB</a></h1>
+        <button onclick="
+
+        //  변수에 body 를 담아서 querySelector를 안해도되는코드
+
+        let resultBody = document.querySelector('body')
+        resultBody.style.backgroundColor= '#000000';
+        resultBody.style.color='#ffffff';
+
+        //  위와 아래는 같은코드이다 
+        
+        // document.querySelector('body').style.backgroundColor='black';
+        // document.querySelector('body').style.color='#ffffff';
+
+
+
+
+
+        // 바꿀곳이 1개면 querySelector 1개이상이면 querySelectorAll
+        let resultA = document.querySelectorAll('a');
+        resultA[0].style.color='#add8e6';
+        resultA[1].style.color='#add8e6';
+        resultA[2].style.color='#add8e6';
+        resultA[3].style.color='#add8e6';
+        document.querySelector('button').textContent='Day';
+        ">Night</button>
+        
+        <!-- 위와 아래는 같은 코드이다 -->
+
+        <!-- 
+        document.querySelectorAll('a')[0].style.color='#add8e6';
+        document.querySelectorAll('a')[1].style.color='#add8e6';
+        document.querySelectorAll('a')[2].style.color='#add8e6';
+        document.querySelectorAll('a')[3].style.color='#add8e6';
+        document.querySelector('button').textContent='Day';
+        ">Night</button> -->
+
+
+
+        <!-- body 에 display를 none으로 바꾼다 -->
+        <!--<button onclick="
+        document.querySelector('body').style.display='none';
+        ">Night</button> -->
+        <ol class="menu">
+            <li><a href="./html1.html">HTML</a></li>
+            <li><a href="./css1.html">CSS</a></li>
+            <li><a href="./java1html">javaScript</a></li>
+        </ol>
+        <h2>WEB이란 무엇인가?</h2>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestiae voluptates odit distinctio dolore nam delectus itaque magnam deleniti voluptate labore dignissimos, tempore, vero corrupti deserunt rem rerum eligendi? A hic eius molestias adipisci dolorum optio, pariatur soluta, similique illum nihil ex nisi, blanditiis maxime vero quam fugiat laborum iusto quisquam ad quasi. Eveniet quas, sint inventore sapiente nobis adipisci cumque tempora quae totam beatae accusamus qui quam quia aliquam repellat delectus repellendus veritatis! Laboriosam consequuntur consequatur consectetur repudiandae quam suscipit animi eveniet dicta quia molestiae expedita cupiditate accusamus blanditiis quo, facilis cumque porro! Eaque enim magni, cum aperiam nobis vitae!</p>
+
+
+    </div>
+
+    
+</body>
+</html>
