@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <!--display:block; => 세로
+        display:inline; => width와height를 없애고 가로
+        display:inline-block; => 세로배치
+    -->
+    <style>
+        .inline-box{
+            display: inline;
+            width: 100px;
+            height: 100px;
+            margin: 20px;
+            border:2px solid black;
+        }
+        .block-box{
+            display: block;
+            width: 100px;
+            height: 100px;
+            margin: 20px;
+            border: 2px solid black;
+        }
+        .inline-block{
+            display: inline-block;
+            width: 100px;
+            height: 100px;
+            margin: 20px;
+            border: 2px solid black;
+        }
+    </style>
+</head>
+<body>
+    <h1>인라인구조,블록구조</h1>
+    <!--기본상태 => Block상태-->
+    <h2>인라인 구조</h2>
+    <div class="inline-box"></div>
+    <div class="inline-box"></div>
+    <div class="inline-box"></div>
+    <div class="inline-box"></div>
+    <br>
+    <h2>블록 구조</h2>
+    <!--span-tag => inline 요소-->
+    <span class="block-box"></span>
+    <span class="block-box"></span>
+    <span class="block-box"></span>
+    <span class="block-box"></span>
+    <br>
+    <h2>인라인 블록 구조</h2>
+    <span class="inline-block"></span>
+    <span class="inline-block"></span>
+    <span class="inline-block"></span>
+    <span class="inline-block"></span>
+    
+</body>
+</html>
