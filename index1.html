@@ -50,13 +50,28 @@
             color: blue;
         } */
 
-        
+
     </style>
 </head>
 <body>
     <div class="wrapper">
         <h1><a href="./index1.html">WEB</a></h1>
-        <button>Night</button>
+        <button onclick="
+        document.querySelector('body').style.backgroundColor='black';
+        document.querySelector('body').style.color='#ffffff';
+
+        // 바꿀곳이 1개면 querySelector 1개이상이면 querySelectorAll
+        
+        document.querySelectorAll('a')[0].style.color='#add8e6';
+        document.querySelectorAll('a')[1].style.color='#add8e6';
+        document.querySelectorAll('a')[2].style.color='#add8e6';
+        document.querySelectorAll('a')[3].style.color='#add8e6';
+        document.querySelector('button').textContent='Day';
+        ">Night</button>
+        <!-- body 에 display를 none으로 바꾼다 -->
+        <!--<button onclick="
+        document.querySelector('body').style.display='none';
+        ">Night</button> -->
         <ol class="menu">
             <li><a href="./html1.html">HTML</a></li>
             <li><a href="./css1.html">CSS</a></li>
